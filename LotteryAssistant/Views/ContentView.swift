@@ -1,4 +1,4 @@
-//
+//https://gitee.com/jgump/LotteryAssistant/issues/I5FJPA
 //  ContentView.swift
 //  LotteryAssistant
 //
