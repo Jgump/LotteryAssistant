@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F19221927E75A47007735DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F19221827E75A47007735DA /* ContentView.swift */; };
+		6F3960AA286FF8210003E7B3 /* NewLotteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3960A9286FF8210003E7B3 /* NewLotteryView.swift */; };
+		6F3960AC286FF8B30003E7B3 /* AttributeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3960AB286FF8B30003E7B3 /* AttributeList.swift */; };
+		6F3960AF286FF8DA0003E7B3 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3960AE286FF8DA0003E7B3 /* ActivityIndicator.swift */; };
+		6F3960B1286FF9C40003E7B3 /* Lottery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3960B0286FF9C40003E7B3 /* Lottery.swift */; };
+		6F52FF2328701CA200EC24D3 /* NumberChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F52FF2228701CA200EC24D3 /* NumberChooser.swift */; };
+		6F6C00DA28640EF7001FD548 /* LotteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6C00D928640EF7001FD548 /* LotteryView.swift */; };
+		6F73DC66286A736700D8882D /* 2005.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F73DC52286A736600D8882D /* 2005.plist */; };
+		6F73DC67286A736700D8882D /* 2009.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F73DC53286A736600D8882D /* 2009.plist */; };
+		6F73DC68286A736700D8882D /* 2017.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F73DC54286A736600D8882D /* 2017.plist */; };
+		6F73DC69286A736700D8882D /* 2013.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F73DC55286A736700D8882D /* 2013.plist */; };
+		6F73DC6A286A736700D8882D /* 2018.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F73DC56286A736700D8882D /* 2018.plist */; };
+		6F73DC6B286A736700D8882D /* 2021.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F73DC57286A736700D8882D /* 2021.plist */; };
+		6F73DC6C286A736700D8882D /* 2007.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F73DC58286A736700D8882D /* 2007.plist */; };
+		6F73DC6D286A736700D8882D /* 2004.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F73DC59286A736700D8882D /* 2004.plist */; };
+		6F73DC6E286A736700D8882D /* 2020.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F73DC5A286A736700D8882D /* 2020.plist */; };
+		6F73DC6F286A736700D8882D /* 2019.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F73DC5B286A736700D8882D /* 2019.plist */; };
+		6F73DC70286A736700D8882D /* 2008.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F73DC5C286A736700D8882D /* 2008.plist */; };
+		6F73DC71286A736700D8882D /* 2011.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F73DC5D286A736700D8882D /* 2011.plist */; };
+		6F73DC72286A736700D8882D /* 2015.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F73DC5E286A736700D8882D /* 2015.plist */; };
+		6F73DC73286A736700D8882D /* 2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F73DC5F286A736700D8882D /* 2010.plist */; };
+		6F73DC74286A736700D8882D /* 2003.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F73DC60286A736700D8882D /* 2003.plist */; };
+		6F73DC75286A736700D8882D /* 2014.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F73DC61286A736700D8882D /* 2014.plist */; };
+		6F73DC76286A736700D8882D /* 2016.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F73DC62286A736700D8882D /* 2016.plist */; };
+		6F73DC77286A736700D8882D /* 2022.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F73DC63286A736700D8882D /* 2022.plist */; };
+		6F73DC78286A736700D8882D /* 2012.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F73DC64286A736700D8882D /* 2012.plist */; };
+		6F73DC79286A736700D8882D /* 2006.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F73DC65286A736700D8882D /* 2006.plist */; };
+		6F80E30B2867105100415945 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F80E30A2867105100415945 /* DataSource.swift */; };
+		6F88CACB2829FAD300719812 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F88CACA2829FAD300719812 /* DetailView.swift */; };
+		6F8AF6AA282E670C00196234 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8AF6A9282E670C00196234 /* DataStore.swift */; };
+		6FC0EE42277E6E3E006A7531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC0EE41277E6E3E006A7531 /* Assets.xcassets */; };
+		6FD3AC5C27604254005EE009 /* LotteryAssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD3AC5B27604254005EE009 /* LotteryAssistantApp.swift */; };
+		6FD3AC6327604256005EE009 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD3AC6227604256005EE009 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F19221827E75A47007735DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F3960A9286FF8210003E7B3 /* NewLotteryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewLotteryView.swift; sourceTree = "<group>"; };
+		6F3960AB286FF8B30003E7B3 /* AttributeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributeList.swift; sourceTree = "<group>"; };
+		6F3960AE286FF8DA0003E7B3 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		6F3960B0286FF9C40003E7B3 /* Lottery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lottery.swift; sourceTree = "<group>"; };
+		6F52FF2228701CA200EC24D3 /* NumberChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberChooser.swift; sourceTree = "<group>"; };
+		6F6C00D928640EF7001FD548 /* LotteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryView.swift; sourceTree = "<group>"; };
+		6F73DC52286A736600D8882D /* 2005.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 2005.plist; sourceTree = "<group>"; };
+		6F73DC53286A736600D8882D /* 2009.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 2009.plist; sourceTree = "<group>"; };
+		6F73DC54286A736600D8882D /* 2017.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 2017.plist; sourceTree = "<group>"; };
+		6F73DC55286A736700D8882D /* 2013.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 2013.plist; sourceTree = "<group>"; };
+		6F73DC56286A736700D8882D /* 2018.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 2018.plist; sourceTree = "<group>"; };
+		6F73DC57286A736700D8882D /* 2021.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 2021.plist; sourceTree = "<group>"; };
+		6F73DC58286A736700D8882D /* 2007.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 2007.plist; sourceTree = "<group>"; };
+		6F73DC59286A736700D8882D /* 2004.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 2004.plist; sourceTree = "<group>"; };
+		6F73DC5A286A736700D8882D /* 2020.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 2020.plist; sourceTree = "<group>"; };
+		6F73DC5B286A736700D8882D /* 2019.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 2019.plist; sourceTree = "<group>"; };
+		6F73DC5C286A736700D8882D /* 2008.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 2008.plist; sourceTree = "<group>"; };
+		6F73DC5D286A736700D8882D /* 2011.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 2011.plist; sourceTree = "<group>"; };
+		6F73DC5E286A736700D8882D /* 2015.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 2015.plist; sourceTree = "<group>"; };
+		6F73DC5F286A736700D8882D /* 2010.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 2010.plist; sourceTree = "<group>"; };
+		6F73DC60286A736700D8882D /* 2003.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 2003.plist; sourceTree = "<group>"; };
+		6F73DC61286A736700D8882D /* 2014.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 2014.plist; sourceTree = "<group>"; };
+		6F73DC62286A736700D8882D /* 2016.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 2016.plist; sourceTree = "<group>"; };
+		6F73DC63286A736700D8882D /* 2022.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 2022.plist; sourceTree = "<group>"; };
+		6F73DC64286A736700D8882D /* 2012.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 2012.plist; sourceTree = "<group>"; };
+		6F73DC65286A736700D8882D /* 2006.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 2006.plist; sourceTree = "<group>"; };
+		6F80E30A2867105100415945 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		6F88CACA2829FAD300719812 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		6F8AF6A9282E670C00196234 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		6FC0EE41277E6E3E006A7531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FD3AC5827604254005EE009 /* LotteryAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD3AC5B27604254005EE009 /* LotteryAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryAssistantApp.swift; sourceTree = "<group>"; };
+		6FD3AC6227604256005EE009 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FD3AC5527604254005EE009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F3960AD286FF8DA0003E7B3 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6F3960AE286FF8DA0003E7B3 /* ActivityIndicator.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		6FD3AC4F27604254005EE009 = {
+			isa = PBXGroup;
+			children = (
+				6FD3AC5A27604254005EE009 /* LotteryAssistant */,
+				6FD3AC5927604254005EE009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FD3AC5927604254005EE009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FD3AC5827604254005EE009 /* LotteryAssistant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FD3AC5A27604254005EE009 /* LotteryAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				6FD3AC5B27604254005EE009 /* LotteryAssistantApp.swift */,
+				6FD3AC6F2760426F005EE009 /* lotteryPlists */,
+				6FD3AC692760426F005EE009 /* Models */,
+				6FD3AC772760426F005EE009 /* Views */,
+				6FD3AC6127604256005EE009 /* Preview Content */,
+			);
+			path = LotteryAssistant;
+			sourceTree = "<group>";
+		};
+		6FD3AC6127604256005EE009 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6FD3AC6227604256005EE009 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6FD3AC692760426F005EE009 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6F80E30A2867105100415945 /* DataSource.swift */,
+				6F8AF6A9282E670C00196234 /* DataStore.swift */,
+				6F3960B0286FF9C40003E7B3 /* Lottery.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6FD3AC6F2760426F005EE009 /* lotteryPlists */ = {
+			isa = PBXGroup;
+			children = (
+				6F73DC60286A736700D8882D /* 2003.plist */,
+				6F73DC59286A736700D8882D /* 2004.plist */,
+				6F73DC52286A736600D8882D /* 2005.plist */,
+				6F73DC65286A736700D8882D /* 2006.plist */,
+				6F73DC58286A736700D8882D /* 2007.plist */,
+				6F73DC5C286A736700D8882D /* 2008.plist */,
+				6F73DC53286A736600D8882D /* 2009.plist */,
+				6F73DC5F286A736700D8882D /* 2010.plist */,
+				6F73DC5D286A736700D8882D /* 2011.plist */,
+				6F73DC64286A736700D8882D /* 2012.plist */,
+				6F73DC55286A736700D8882D /* 2013.plist */,
+				6F73DC61286A736700D8882D /* 2014.plist */,
+				6F73DC5E286A736700D8882D /* 2015.plist */,
+				6F73DC62286A736700D8882D /* 2016.plist */,
+				6F73DC54286A736600D8882D /* 2017.plist */,
+				6F73DC56286A736700D8882D /* 2018.plist */,
+				6F73DC5B286A736700D8882D /* 2019.plist */,
+				6F73DC5A286A736700D8882D /* 2020.plist */,
+				6F73DC57286A736700D8882D /* 2021.plist */,
+				6F73DC63286A736700D8882D /* 2022.plist */,
+			);
+			path = lotteryPlists;
+			sourceTree = "<group>";
+		};
+		6FD3AC772760426F005EE009 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6F3960AD286FF8DA0003E7B3 /* UIKit */,
+				6F3960A9286FF8210003E7B3 /* NewLotteryView.swift */,
+				6F3960AB286FF8B30003E7B3 /* AttributeList.swift */,
+				6F19221827E75A47007735DA /* ContentView.swift */,
+				6F6C00D928640EF7001FD548 /* LotteryView.swift */,
+				6F52FF2228701CA200EC24D3 /* NumberChooser.swift */,
+				6F88CACA2829FAD300719812 /* DetailView.swift */,
+				6FC0EE41277E6E3E006A7531 /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FD3AC5727604254005EE009 /* LotteryAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD3AC6627604256005EE009 /* Build configuration list for PBXNativeTarget "LotteryAssistant" */;
+			buildPhases = (
+				6FD3AC5427604254005EE009 /* Sources */,
+				6FD3AC5527604254005EE009 /* Frameworks */,
+				6FD3AC5627604254005EE009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LotteryAssistant;
+			productName = LotteryAssistant;
+			productReference = 6FD3AC5827604254005EE009 /* LotteryAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FD3AC5027604254005EE009 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					6FD3AC5727604254005EE009 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 6FD3AC5327604254005EE009 /* Build configuration list for PBXProject "LotteryAssistant" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FD3AC4F27604254005EE009;
+			productRefGroup = 6FD3AC5927604254005EE009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FD3AC5727604254005EE009 /* LotteryAssistant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FD3AC5627604254005EE009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F73DC70286A736700D8882D /* 2008.plist in Resources */,
+				6F73DC73286A736700D8882D /* 2010.plist in Resources */,
+				6F73DC69286A736700D8882D /* 2013.plist in Resources */,
+				6F73DC75286A736700D8882D /* 2014.plist in Resources */,
+				6FD3AC6327604256005EE009 /* Preview Assets.xcassets in Resources */,
+				6F73DC67286A736700D8882D /* 2009.plist in Resources */,
+				6F73DC6E286A736700D8882D /* 2020.plist in Resources */,
+				6F73DC6B286A736700D8882D /* 2021.plist in Resources */,
+				6F73DC71286A736700D8882D /* 2011.plist in Resources */,
+				6FC0EE42277E6E3E006A7531 /* Assets.xcassets in Resources */,
+				6F73DC6D286A736700D8882D /* 2004.plist in Resources */,
+				6F73DC68286A736700D8882D /* 2017.plist in Resources */,
+				6F73DC79286A736700D8882D /* 2006.plist in Resources */,
+				6F73DC6C286A736700D8882D /* 2007.plist in Resources */,
+				6F73DC74286A736700D8882D /* 2003.plist in Resources */,
+				6F73DC72286A736700D8882D /* 2015.plist in Resources */,
+				6F73DC77286A736700D8882D /* 2022.plist in Resources */,
+				6F73DC6F286A736700D8882D /* 2019.plist in Resources */,
+				6F73DC76286A736700D8882D /* 2016.plist in Resources */,
+				6F73DC78286A736700D8882D /* 2012.plist in Resources */,
+				6F73DC66286A736700D8882D /* 2005.plist in Resources */,
+				6F73DC6A286A736700D8882D /* 2018.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FD3AC5427604254005EE009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8AF6AA282E670C00196234 /* DataStore.swift in Sources */,
+				6F6C00DA28640EF7001FD548 /* LotteryView.swift in Sources */,
+				6F88CACB2829FAD300719812 /* DetailView.swift in Sources */,
+				6F3960B1286FF9C40003E7B3 /* Lottery.swift in Sources */,
+				6F3960AF286FF8DA0003E7B3 /* ActivityIndicator.swift in Sources */,
+				6F3960AA286FF8210003E7B3 /* NewLotteryView.swift in Sources */,
+				6F19221927E75A47007735DA /* ContentView.swift in Sources */,
+				6FD3AC5C27604254005EE009 /* LotteryAssistantApp.swift in Sources */,
+				6F52FF2328701CA200EC24D3 /* NumberChooser.swift in Sources */,
+				6F3960AC286FF8B30003E7B3 /* AttributeList.swift in Sources */,
+				6F80E30B2867105100415945 /* DataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6FD3AC6427604256005EE009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FD3AC6527604256005EE009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FD3AC6727604256005EE009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LotteryAssistant/Preview Content\"";
+				DEVELOPMENT_TEAM = UQ62GATP49;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jgump.LotteryAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FD3AC6827604256005EE009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LotteryAssistant/Preview Content\"";
+				DEVELOPMENT_TEAM = UQ62GATP49;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jgump.LotteryAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FD3AC5327604254005EE009 /* Build configuration list for PBXProject "LotteryAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD3AC6427604256005EE009 /* Debug */,
+				6FD3AC6527604256005EE009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FD3AC6627604256005EE009 /* Build configuration list for PBXNativeTarget "LotteryAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD3AC6727604256005EE009 /* Debug */,
+				6FD3AC6827604256005EE009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FD3AC5027604254005EE009 /* Project object */;
+}
