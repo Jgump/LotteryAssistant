@@ -73,7 +73,6 @@
 		6F80E30A2867105100415945 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		6F88CACA2829FAD300719812 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		6F8AF6A9282E670C00196234 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
-		6F9DAFF42874046B002B275A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6FC0EE41277E6E3E006A7531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FD3AC5827604254005EE009 /* LotteryAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD3AC5B27604254005EE009 /* LotteryAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryAssistantApp.swift; sourceTree = "<group>"; };
@@ -123,7 +122,6 @@
 				6FD3AC692760426F005EE009 /* Models */,
 				6FD3AC772760426F005EE009 /* Views */,
 				6FD3AC6127604256005EE009 /* Preview Content */,
-				6F9DAFF42874046B002B275A /* README.md */,
 			);
 			path = LotteryAssistant;
 			sourceTree = "<group>";
